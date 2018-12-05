@@ -27,9 +27,9 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="-14dp"
-        android:layout_marginTop="-79dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="-17dp"
+        android:layout_marginTop="-90dp"
+        android:layout_marginEnd="35dp"
         android:layout_toEndOf="@+id/textView"
         android:ems="10"
         android:inputType="textPersonName"
@@ -99,7 +99,7 @@
         android:layout_height="264dp"
         android:layout_alignStart="@+id/textContra"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-44dp"
+        android:layout_marginStart="-59dp"
         android:layout_marginTop="38dp"
         app:srcCompat="@drawable/logo_sin_fondo" />
 

@@ -79,6 +79,11 @@ public class Registrar_oferta_fufaz extends AppCompatActivity implements Respons
         }catch (Exception e){
             Toast.makeText(this, "error " + e.toString(), Toast.LENGTH_LONG).show();
         }
+        CodigOF.setText("");
+        DescripcionOF.setText("");
+        HoraF.setText("");
+        HoraI.setText("");
+        Precio.setText("");
     }
 
     @Override
