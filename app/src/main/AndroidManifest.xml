@@ -28,7 +28,6 @@
         <activity android:name=".Reserva" />
         <activity android:name=".Resumen" />
         <activity android:name=".Registrar_oferta_fufaz" />
-        <activity android:name=".Registrar_Evento" />
         <activity android:name=".RegistrarUsuarioActivity" />
         <activity android:name=".RegistrarOferta"></activity>
     </application>

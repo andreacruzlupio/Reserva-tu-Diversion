@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/lb"
     tools:context=".RegistrarUsuarioActivity">
 
     <ScrollView
@@ -64,6 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Codigo"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -74,7 +76,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="555"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -102,6 +105,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Nombre"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -111,7 +115,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -139,6 +144,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Apellido"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -148,7 +154,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -176,6 +183,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Edad"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -185,7 +193,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -213,6 +222,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Fecha de Nacimiento"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -222,7 +232,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="date" />
+                    android:inputType="date"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -251,6 +262,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Usuario"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -260,7 +272,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -288,6 +301,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Contraseña"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -297,7 +311,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -325,6 +340,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Tipo de Usuario"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -334,7 +350,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
