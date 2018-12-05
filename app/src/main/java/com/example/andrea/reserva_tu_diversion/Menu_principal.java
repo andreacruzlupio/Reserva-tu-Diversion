@@ -9,17 +9,19 @@ import android.widget.ImageButton;
 
 public class Menu_principal extends AppCompatActivity {
 
+    String cod_usuario;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
         ImageButton btnofe = (ImageButton) findViewById(R.id.bof);
-
-
+        Intent intent = getIntent();
+        cod_usuario = intent.getStringExtra("Cod");
     }
     public void btnOf (View view)
     {
         Intent intent = new Intent(this, RegistrarOferta.class);
+        intent.putExtra("Cod", cod_usuario);
         startActivity(intent);
     }
     public void btnOff (View view)
