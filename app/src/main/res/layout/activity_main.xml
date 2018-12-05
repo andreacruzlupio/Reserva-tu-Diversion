@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/dg"
     tools:context=".MainActivity">
 
     <TextView
@@ -42,13 +42,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="39dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="62dp"
         android:background="?attr/actionBarDivider"
         android:onClick="btnentrar"
         android:text="Entrar"
         android:textColor="@color/colorAccent"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
@@ -69,24 +69,24 @@
         android:layout_width="199dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="-10dp"
         android:layout_marginBottom="8dp"
         android:layout_toEndOf="@+id/textView2"
         android:background="?attr/actionBarDivider"
         android:onClick="btncrear"
         android:text="crear cuenta"
         android:textColor="@color/colorAccent"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="256dp"
-        android:layout_height="212dp"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
         android:layout_alignStart="@+id/textusuario"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-49dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="71dp"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/mm"
         tools:srcCompat="@drawable/logo_sin_fondo" />

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/iufd"
     tools:context=".Reserva">
 
     <ImageView
@@ -13,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="32dp"
         app:srcCompat="@drawable/ml" />
 
     <TextView
@@ -22,9 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="169dp"
-        android:layout_marginEnd="22dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="23dp"
         android:text="20/Oct/2018"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -34,7 +36,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView28"
         android:layout_alignStart="@+id/imageView9"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
         android:text="Codigo:"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -44,9 +49,10 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView9"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginTop="238dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="258dp"
         android:text="Cliente:"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -56,9 +62,10 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView9"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="259dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="239dp"
         android:text="Correo:"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -68,9 +75,10 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView9"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="217dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="197dp"
         android:text="Fecha:"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -80,9 +88,10 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView9"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="179dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="159dp"
         android:text="Disponibilidad:"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -92,9 +101,10 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView9"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="97dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="77dp"
         android:text="Total: "
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -105,8 +115,9 @@
         android:layout_alignStart="@+id/textView37"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="120dp"
         android:text="Mesa: "
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -117,10 +128,11 @@
         android:layout_alignStart="@+id/textView37"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="17dp"
-        android:background="?attr/colorBackgroundFloating"
+        android:background="?attr/actionBarDivider"
         android:onClick="btnreservaA"
         android:text="reservar "
-        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
@@ -129,8 +141,10 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView29"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="106dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginBottom="0dp"
         android:text="01"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -140,10 +154,11 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView39"
         android:layout_alignTop="@+id/textView30"
-        android:layout_marginStart="-6dp"
-        android:layout_marginTop="-9dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@android:color/white"
         android:textSize="16sp" />
 
     <EditText
@@ -152,8 +167,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText10"
         android:layout_alignStart="@+id/editText10"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
         android:textSize="16sp" />
 
     <EditText
@@ -163,7 +181,7 @@
         android:layout_above="@+id/textView36"
         android:layout_alignStart="@+id/editText10"
         android:layout_marginStart="-2dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginBottom="1dp"
         android:ems="10"
         android:inputType="date"
         android:textSize="16sp" />
@@ -178,6 +196,7 @@
         android:layout_toEndOf="@+id/textView34"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textColor="@android:color/white"
         android:textSize="16sp" />
 
     <TextView
@@ -186,7 +205,10 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView39"
         android:layout_alignBottom="@+id/textView38"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
         android:text="5"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
