@@ -24,7 +24,7 @@ public class Menu_principal extends AppCompatActivity {
     }
     public void btnOff (View view)
     {
-        Intent intent = new Intent(this, Oferta.class);
+        Intent intent = new Intent(this, Registrar_oferta_fufaz.class);
         startActivity(intent);
     }
     public void btnEv (View view)
