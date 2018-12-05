@@ -79,30 +79,28 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="189dp"
-        android:layout_height="165dp"
-        android:layout_alignStart="@+id/textusuario"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="-18dp"
-        android:layout_marginTop="71dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/mm"
-        tools:srcCompat="@drawable/logo_sin_fondo" />
-
     <EditText
         android:id="@+id/textContra"
         android:layout_width="202dp"
         android:layout_height="60dp"
         android:layout_alignTop="@+id/textView"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="-28dp"
-        android:layout_marginEnd="29dp"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="13dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="166dp"
+        android:layout_height="264dp"
+        android:layout_alignStart="@+id/textContra"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-44dp"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/logo_sin_fondo" />
 
 </RelativeLayout>

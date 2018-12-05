@@ -44,12 +44,18 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
 
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
         requestQueue.add(jsonObjectRequest);
+        usuario.setText("");
+        contraseña.setText("");
     }
+
     public void btncrear (View view)
     {
         Intent intent = new Intent(this, RegistrarUsuarioActivity.class);
         startActivity(intent);
+        usuario.setText("");
+        contraseña.setText("");
     }
+
     @Override
     public void onErrorResponse(VolleyError error) {
         progreso.hide();
