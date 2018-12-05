@@ -19,7 +19,7 @@ public class Menu_principal extends AppCompatActivity {
     }
     public void btnOf (View view)
     {
-        Intent intent = new Intent(this, Ofertaa.class);
+        Intent intent = new Intent(this, RegistrarOferta.class);
         startActivity(intent);
     }
     public void btnOff (View view)
@@ -29,7 +29,7 @@ public class Menu_principal extends AppCompatActivity {
     }
     public void btnEv (View view)
     {
-        Intent intent = new Intent(this, Eventos.class);
+        Intent intent = new Intent(this, Rregistrar_Evento.class);
         startActivity(intent);
     }
 }

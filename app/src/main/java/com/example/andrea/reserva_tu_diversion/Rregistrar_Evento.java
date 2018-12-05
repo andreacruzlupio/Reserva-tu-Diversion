@@ -1,15 +1,12 @@
 package com.example.andrea.reserva_tu_diversion;
 
 import android.support.v7.app.AppCompatActivity;
-import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -23,27 +20,27 @@ import org.json.JSONObject;
 
 import java.lang.reflect.Method;
 
-public class RegistrarOferta extends AppCompatActivity implements Response.ErrorListener, Response.Listener<JSONObject> {
+
+public class Rregistrar_Evento extends AppCompatActivity implements Response.ErrorListener, Response.Listener<JSONObject> {
     RequestQueue requestQueue;
     JsonObjectRequest jsonObjectRequest;
-    EditText CodigO, Descripcion, Precio;
+    EditText Codigo, Descripcion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registrar_oferta);
-        Button bntRCliente = (Button) findViewById(R.id.btnregi);
-        CodigO=(EditText) findViewById(R.id.CdREOferta);
-        Descripcion=(EditText)findViewById(R.id.textFOferta);
-        Precio=(EditText)findViewById(R.id.textprecio);
+        setContentView(R.layout.activity_rregistrar__evento);
+        Button btnenv = (Button) findViewById(R.id.btnGRE);
+        Codigo=(EditText) findViewById(R.id.CodReEvento);
+        Descripcion=(EditText)findViewById(R.id.DesReEvento);
         requestQueue = Volley.newRequestQueue(this);
     }
-    public void btnregO (View view){
-        try {
-            String url = "https://viridianamacias.000webhostapp.com/PHP/antros_Consultas/Ingresa_Ofertas.php?" +
-                    "Cod_Ofertas="+CodigO.getText().toString()+"&" +
-                    "Descripcion="+Descripcion.getText().toString()+"&" +
-                    "Precio="+Precio.getText().toString()+"";
 
+    public void btnGEve (View view)
+    {
+        try {
+            String url = "https://viridianamacias.000webhostapp.com/PHP/antros_Consultas/Ingresar_Tematicaa.php?" +
+                    "Cod_Tematica="+Codigo.getText().toString()+"&" +
+                    "Descripcion="+Descripcion.getText().toString()+"";
 
             jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
             requestQueue.add(jsonObjectRequest);
@@ -51,17 +48,20 @@ public class RegistrarOferta extends AppCompatActivity implements Response.Error
             Toast.makeText(this, "error " + e.toString(), Toast.LENGTH_LONG).show();
         }
     }
-
     @Override
     public void onErrorResponse(VolleyError error) {
-        Toast.makeText(this, "Error "+error.toString(), Toast.LENGTH_LONG).show();
+        try {
+            Toast.makeText(this, "Error " + error.toString(), Toast.LENGTH_LONG).show();
+        }catch (Exception e){
+
+        }
     }
 
     @Override
     public void onResponse(JSONObject response) {
-        JSONArray jsonArray = response.optJSONArray("Datos");
-        JSONObject jsonObject = null;
         try {
+            JSONArray jsonArray = response.optJSONArray("Datos");
+            JSONObject jsonObject = null;
             jsonObject = jsonArray.getJSONObject(0);
             String mensaje = jsonObject.optString("message");
 
