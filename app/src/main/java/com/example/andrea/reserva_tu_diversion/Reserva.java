@@ -24,11 +24,12 @@ public class Reserva extends AppCompatActivity  implements Response.ErrorListene
     RequestQueue requestQueue;
     JsonObjectRequest jsonObjectRequest;
     EditText CodigoRes, NomCli, Correo,Fecha, Total, CodMesa, CodUsu;
-
+    String cod_usuario;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reserva);
+
        // Button btnreserva = (Button) findViewById(R.id.btnreservaa);
         CodigoRes=(EditText) findViewById(R.id.Cod_Res);
         NomCli=(EditText)findViewById(R.id.Nom_Client);
@@ -36,8 +37,9 @@ public class Reserva extends AppCompatActivity  implements Response.ErrorListene
         Fecha=(EditText)findViewById(R.id.FechaRes);
         Total=(EditText)findViewById(R.id.ToRes);
         CodMesa=(EditText)findViewById(R.id.MesaRes);
-        CodUsu=(EditText)findViewById(R.id.UsuRes);
-
+        //CodUsu=(EditText)findViewById(R.id.UsuRes);
+        Intent intent = getIntent();
+        cod_usuario = intent.getStringExtra("Cod");
         requestQueue = Volley.newRequestQueue(this);
     }
     public void btnreservaA (View view)
@@ -50,7 +52,7 @@ public class Reserva extends AppCompatActivity  implements Response.ErrorListene
                     "Fecha="+Fecha.getText().toString()+"&" +
                     "Total="+Total.getText().toString()+"&" +
                     "Cod_Mesa="+CodMesa.getText().toString()+"&" +
-                    "Cod_Usuario="+CodUsu+"";
+                    "Cod_Usuario="+cod_usuario+"";
 
             jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
             requestQueue.add(jsonObjectRequest);

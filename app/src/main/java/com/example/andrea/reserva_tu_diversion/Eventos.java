@@ -79,6 +79,7 @@ public class Eventos extends AppCompatActivity implements Response.ErrorListener
                 String Cod_Tematica = jsonObject.optString("Cod_Tematica");
                 String Descripcion = jsonObject.optString("Descripcion");
                 ListDatos.add(new Tematicaa(Cod_Tematica, Descripcion));
+                Toast.makeText(this, Cod_Tematica, Toast.LENGTH_LONG).show();
             }
             AdaptadorEventos adaptadorEventos = new AdaptadorEventos(ListDatos, this);
             recyclerView.setAdapter(adaptadorEventos);

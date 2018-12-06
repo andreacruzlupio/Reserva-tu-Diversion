@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import com.example.andrea.reserva_tu_diversion.R;
 
 import java.util.ArrayList;

@@ -58,13 +58,13 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="61dp"
-        android:onClick="menu2"
-        android:text="Button" />
+        android:layout_marginStart="329dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/usu"
+        android:onClick="menu2" />
 
 </RelativeLayout>
