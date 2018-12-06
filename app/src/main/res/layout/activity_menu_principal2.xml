@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_principal2">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gif2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="121dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="5dp"
+        android:background="?attr/actionBarDivider"
+        android:onClick="btnOfC"
+        android:scaleType="fitXY"
+        android:src="@drawable/mm" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="105dp"
+        android:layout_height="98dp"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="126dp"
+        android:background="?attr/actionBarDivider"
+        android:onClick="btnEvC"
+        android:scaleType="fitXY"
+        android:src="@drawable/bnm" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="83dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="7dp"
+        android:background="?attr/actionBarDivider"
+        android:onClick="btnOffC"
+        android:scaleType="fitXY"
+        android:src="@drawable/po" />
+
+
+</RelativeLayout>

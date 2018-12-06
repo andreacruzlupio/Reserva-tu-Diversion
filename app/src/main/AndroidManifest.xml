@@ -30,7 +30,10 @@
         <activity android:name=".Registrar_oferta_fufaz" />
         <activity android:name=".RegistrarUsuarioActivity" />
         <activity android:name=".RegistrarOferta" />
-        <activity android:name=".Rregistrar_Evento"></activity>
+        <activity android:name=".Rregistrar_Evento" />
+        <activity
+            android:name=".Menu_principal2"
+            android:label="@string/title_activity_menu_principal2"></activity>
     </application>
 
 </manifest>

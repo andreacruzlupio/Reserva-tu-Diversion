@@ -29,7 +29,7 @@ public class Reserva extends AppCompatActivity  implements Response.ErrorListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reserva);
-        Button btnreserva = (Button) findViewById(R.id.btnreservaa);
+       // Button btnreserva = (Button) findViewById(R.id.btnreservaa);
         CodigoRes=(EditText) findViewById(R.id.Cod_Res);
         NomCli=(EditText)findViewById(R.id.Nom_Client);
         Correo=(EditText)findViewById(R.id.Correoo);

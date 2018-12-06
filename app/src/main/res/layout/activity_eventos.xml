@@ -4,10 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/actionBarDivider"
     tools:context=".Eventos">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/RecyclerEventos"
+        android:id="@+id/reseven"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 </RelativeLayout>
