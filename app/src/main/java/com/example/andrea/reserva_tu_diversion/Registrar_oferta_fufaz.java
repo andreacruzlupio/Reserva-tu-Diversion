@@ -237,4 +237,9 @@ public class Registrar_oferta_fufaz extends AppCompatActivity implements Respons
         }
         return false;
     }
+
+    public void botonEliminar(View view){
+        Intent intent = new Intent(this, EliminarFugaz.class);
+        startActivity(intent);
+    }
 }
