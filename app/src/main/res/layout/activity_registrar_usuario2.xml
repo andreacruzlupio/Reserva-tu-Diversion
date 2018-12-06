@@ -37,6 +37,7 @@
                     android:layout_width="150dp"
                     android:layout_height="200dp"
                     android:layout_weight="1"
+                    android:onClick="subirFoto"
                     app:srcCompat="@drawable/log" />
 
                 <Space
@@ -75,7 +76,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="555"
                     android:inputType="textPersonName"
                     android:textColor="@android:color/white" />
 
@@ -381,6 +381,7 @@
                     android:background="?attr/actionBarDivider"
                     android:onClick="btnreg"
                     android:text="Registrar"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 

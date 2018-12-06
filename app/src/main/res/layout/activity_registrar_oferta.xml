@@ -36,6 +36,7 @@
                     android:layout_width="200dp"
                     android:layout_height="150dp"
                     android:layout_weight="1"
+                    android:onClick="subirFoto"
                     app:srcCompat="@drawable/vvbt" />
 
                 <Space
@@ -115,7 +116,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/white" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -228,6 +230,15 @@
                     android:layout_weight="1" />
             </LinearLayout>
 
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="87dp"
+                android:layout_height="74dp"
+                android:onClick="botonEliminar"
+                app:srcCompat="@drawable/eli"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="477dp" />
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
