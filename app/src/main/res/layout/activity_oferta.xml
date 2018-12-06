@@ -101,7 +101,6 @@
         android:layout_marginStart="17dp"
         android:layout_marginBottom="20dp"
         android:background="?attr/actionBarDivider"
-        android:onClick="btnOf"
         android:text="Enviar"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"

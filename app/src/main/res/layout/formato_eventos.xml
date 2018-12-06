@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/idC"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -30,17 +29,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Nombre"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/NomEvent"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                tools:text="aa" />
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -63,24 +53,13 @@
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/txtDescripcion"
+                android:id="@+id/TVEveFecha"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Descripcion "
+                android:text="Fecha"
                 android:textAlignment="viewStart"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/DesEvent"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="587dp"
-                tools:text="aa" />
+                android:textSize="24sp" />
 
             <Space
                 android:layout_width="wrap_content"

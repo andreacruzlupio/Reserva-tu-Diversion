@@ -73,7 +73,6 @@
         android:layout_marginBottom="19dp"
         android:layout_toStartOf="@+id/textView19"
         android:background="?attr/actionBarDivider"
-        android:onClick="btnOf"
         android:text="ENVIAR"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"

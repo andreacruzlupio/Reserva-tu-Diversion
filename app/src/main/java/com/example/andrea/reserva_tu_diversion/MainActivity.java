@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
     RequestQueue requestQueue;
     JsonObjectRequest jsonObjectRequest;
     EditText contraseña, usuario;
-    String usu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,7 +74,6 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
                 //el usuario existe
                 Toast.makeText(this, "Bienvenido" + cod_usuarior, Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(this, Menu_principal.class);
-                intent.putExtra("Cod", cod_usuarior);
                 startActivity(intent);
             }else{
                 //no existe
@@ -85,7 +83,6 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
             Toast.makeText(this, "Algo salio mal :( \n"+e.toString(), Toast.LENGTH_LONG).show();
         }
         progreso.hide();
-
     }
 }
 
