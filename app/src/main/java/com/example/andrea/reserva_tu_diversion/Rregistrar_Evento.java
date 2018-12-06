@@ -229,4 +229,10 @@ public class Rregistrar_Evento extends AppCompatActivity implements Response.Err
         }
         return false;
     }
+
+    public void botonEliminar(View view){
+        Intent intent = new Intent(this, EliminarEvento.class);
+        startActivity(intent);
+    }
+
 }

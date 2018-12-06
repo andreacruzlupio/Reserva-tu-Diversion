@@ -32,7 +32,8 @@
         <activity android:name=".RegistrarOferta" />
         <activity android:name=".Rregistrar_Evento" />
         <activity android:name=".EliminarOferta" />
-        <activity android:name=".EliminarFugaz"></activity>
+        <activity android:name=".EliminarFugaz" />
+        <activity android:name=".EliminarEvento"></activity>
     </application>
 
 </manifest>
