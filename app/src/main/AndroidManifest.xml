@@ -34,6 +34,9 @@
         <activity android:name=".EliminarOferta" />
         <activity android:name=".EliminarFugaz" />
         <activity android:name=".EliminarEvento"></activity>
+        <activity
+            android:name=".Menu_principal2"
+            android:label="@string/title_activity_menu_principal2"></activity>
     </application>
 
 </manifest>
