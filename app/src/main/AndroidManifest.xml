@@ -30,7 +30,8 @@
         <activity android:name=".Registrar_oferta_fufaz" />
         <activity android:name=".RegistrarUsuarioActivity" />
         <activity android:name=".RegistrarOferta" />
-        <activity android:name=".Rregistrar_Evento"></activity>
+        <activity android:name=".Rregistrar_Evento" />
+        <activity android:name=".EliminarOferta"></activity>
     </application>
 
 </manifest>

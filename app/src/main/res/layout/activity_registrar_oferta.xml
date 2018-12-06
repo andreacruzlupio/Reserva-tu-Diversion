@@ -230,6 +230,15 @@
                     android:layout_weight="1" />
             </LinearLayout>
 
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="87dp"
+                android:layout_height="74dp"
+                android:onClick="botonEliminar"
+                app:srcCompat="@drawable/eli"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="477dp" />
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

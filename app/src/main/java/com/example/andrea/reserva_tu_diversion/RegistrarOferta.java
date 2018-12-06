@@ -226,4 +226,10 @@ public class RegistrarOferta extends AppCompatActivity implements Response.Error
         }
         return false;
     }
+
+    public void botonEliminar(View view){
+        Intent intent = new Intent(this, EliminarOferta.class);
+        startActivity(intent);
+    }
+
 }
